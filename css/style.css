@@ -1,3 +1,85 @@
-body {
-    background-color: red;
+/* GENERAL STYLES - START */
+* {
+    box-sizing: border-box;
 }
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-size: 300;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;   
+}
+
+span {
+    color: #1ac056;
+}
+
+/* GENERAL STYLES - END */
+
+/* NAVIGATION - START */
+
+#main-nav {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 0;    /*przyklei menu do góry, zeby nie bylo widac tla menu i zeby nie zjezdzala na dół */
+    right: 0;
+}
+
+nav#main-nav > ul {
+    float: right;
+    margin: 0;
+}
+
+nav#main-nav > ul > li {
+    display: inline-block;
+    padding: 20px 40px;
+    list-style: none;
+}
+
+nav#main-nav > ul > li a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+}
+
+nav#main-nav > ul > li a:hover {
+    color: #291f1a;
+}
+
+/* NAVIGATION- END */
+
+/* MAIN HEADER - START */
+
+header#main-header {
+    background-image: url(img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; 
+}
+
+
+header#main-header .main-header-content {
+	padding: 30vh;
+    text-align: center;
+}
+
+header#main-header .main-header-content h1 {
+    font-size: 4em;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+/* MAIN HEADER - END */
